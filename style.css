@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth; 
+}
+
+img {
+    display: block;   
+    max-width: 100%;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.head {
+    max-width: 1600px;
+    height: 75px;
+    background: #222222;
+    display: flex;
+    gap: 859px;
+}
+
+.head-left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    padding-left: 231px;
+}
+
+.head__left-logo {
+    width: 44px;
+    height: 38px;
+}
+
+.head-left__search {
+    background: #222222;
+    width: 26.002px;
+    height: 26.792px;
+}
+
+.head-right {
+    display: flex;
+    align-items: center;
+}
+
+.head__right-menu {
+    background: #222222;
+    width: 32px;
+    height: 23px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    margin-right: 33px;
+}
+
+.head__right-users {
+    background: #222222;
+    width: 29px;
+    height: 29px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    margin-right: 33px;
+}
+
+.head__right-basket {
+    background: #222222;
+    width: 32px;
+    height: 29px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.brand {
+    display: flex;
+    background: #F1E4E6;
+}
+
+.brand-left {
+    max-height: 764px;
+}
+
+.brand-right {
+    max-width: 405px;
+    max-height: 93.1px;
+    margin-top: 289.9px;
+    margin-left: 63.42px;
+    border-left: 12px solid #F16D7F;
+    vertical-align: middle;
+    padding-left: 16px;
+}
+
+.brand__right-title{
+    font-size: 48px;
+}
+
+.brand__right-paragraph {
+    font-size: 32px;
+}
+
+.brand__right-fashion {
+    color: #F16D7F;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19.9px;
+    justify-content: center;
+    margin-top: 65px;    
+}
+
+
+.catalog-forWoman {
+    background-image: url(./img/woman.png);
+    width: 360px;
+    height: 260px;
+}
+
+.catalog__forWoman-background {
+    background-color:  rgba(33, 22, 22, 0.70);
+    width: 100%;
+    height: 100%;
+} 
+
+.catalog__forWoman__background__text-paragraph {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 104px;    
+}
+
+.catalog__forWoman__background__text-woman {
+    color: #F16D7F;
+    font-size: 24px;
+}
+
+.catalog-forMan {
+    background-image: url(./img/manCatalog.png);
+    width: 232.33px;
+    height: 167.62px   
+}
+
+.catalog-forKids {
+    background-image: url(./img/kid.png);
+    width: 232.33px;
+    height: 167.62px   
+}
+
+.catalog-accesories {
+    background-image: url(./img/accesories.png);
+    width: 734.581px;
+    height: 116.043px;
+}
+
+.catalog__accesories-background {
+    background-color: rgba(33, 22, 22, 0.70);
+    width: 1140px;
+    height: 180px;
+}
