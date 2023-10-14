@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(./fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(./fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url(./fonts/Lato-Black.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -101,10 +120,15 @@ button, a {
 
 .brand__right-title{
     font-size: 48px;
+    font-family: 'Lato-Black';
+    font-weight: 900;
 }
 
 .brand__right-paragraph {
     font-size: 32px;
+    font-family: 'Lato-Bold';
+    font-weight: 700;
+
 }
 
 .brand__right-fashion {
@@ -136,12 +160,17 @@ button, a {
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    padding: 104px;    
+    padding: 104px;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
+
 }
 
 .catalog__forWoman__background__text-woman {
     color: #F16D7F;
     font-size: 24px;
+    font-family: 'Lato-Bold';
+    font-weight: 700;
 }
 
 .catalog-forMan {
@@ -173,6 +202,8 @@ button, a {
     text-align: center;
     font-size: 16px;
     padding: 65px 190px;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
 }
 
 .items {
@@ -181,14 +212,20 @@ button, a {
 }
 
 .items__text-title {
+    text-align: center;
     font-size: 30px;
     margin-bottom: 6px;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
 }
 
 .items__text-paragraph {
+    text-align: center;
     color: #9F9F9F;
     font-size: 14px;
     margin-bottom: 48px;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
 }
 
 .items-cards { 
@@ -210,6 +247,8 @@ button, a {
 .items__cards__1__text-title {
     font-size: 13px;
     color: #000;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
 }
 
 .items__cards__1__text-paragraph {
@@ -217,11 +256,15 @@ button, a {
     font-size: 14px;
     margin: 16px auto;
     max-width: 314.743px;
+    font-family: 'Lato-Light';
+    font-weight: 300;
 }
 
 .items__cards__1__text-price {
     color: #F16D7F;
     font-size: 16px;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
 }
 
 .items-btn {
