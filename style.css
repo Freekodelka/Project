@@ -82,6 +82,7 @@ button, a {
 .brand {
     display: flex;
     background: #F1E4E6;
+    max-width: 1600px;
 }
 
 .brand-left {
@@ -114,7 +115,7 @@ button, a {
     display: flex;
     flex-wrap: wrap;
     gap: 19.9px;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 65px;    
 }
 
@@ -143,26 +144,97 @@ button, a {
     font-size: 24px;
 }
 
-/* .catalog-forMan {
-    background-image: url(./img/manCatalog.png);
-    width: 232.33px;
-    height: 167.62px   
+.catalog-forMan {
+    background-image: url(./img/man2.png);
+    width: 360px;
+    height: 260px;   
 }
 
 .catalog-forKids {
     background-image: url(./img/kid.png);
-    width: 232.33px;
-    height: 167.62px   
+    width: 360px;
+    height: 260px   
 }
 
 .catalog-accesories {
     background-image: url(./img/accesories.png);
-    width: 734.581px;
-    height: 116.043px;
+    width: 1140px;
+    height: 180px;
 }
 
 .catalog__accesories-background {
     background-color: rgba(33, 22, 22, 0.70);
     width: 1140px;
     height: 180px;
-} */
+}
+
+.catalog__accesories__background__text-paragraph {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 65px 190px;
+}
+
+.items {
+    text-align: left;
+    margin-top: 96px;
+}
+
+.items__text-title {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.items__text-paragraph {
+    color: #9F9F9F;
+    font-size: 14px;
+    margin-bottom: 48px;
+}
+
+.items-cards { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.items__cards-1 {
+    max-height: 587px;
+    max-width: 360px;
+    background-color: #F8F8F8;;
+}
+
+.items__cards__1-text {
+    margin: 24px 16px;
+}
+
+.items__cards__1__text-title {
+    font-size: 13px;
+    color: #000;
+}
+
+.items__cards__1__text-paragraph {
+    color: #5D5D5D;
+    font-size: 14px;
+    margin: 16px auto;
+    max-width: 314.743px;
+}
+
+.items__cards__1__text-price {
+    color: #F16D7F;
+    font-size: 16px;
+}
+
+.items-btn {
+    width: 212px;
+    height: 48px;
+    color: #F26376;
+    border: 1px solid #F26376;
+    display: block;
+    margin: 0 auto;    
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+
+.items__btn-paragraph {
+    font-size: 16px;
+}
