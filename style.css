@@ -102,6 +102,7 @@ button, a {
     display: flex;
     background: #F1E4E6;
     max-width: 1600px;
+    max-height: 767px;
 }
 
 .brand-left {
@@ -207,7 +208,6 @@ button, a {
 }
 
 .items {
-    text-align: left;
     margin-top: 96px;
 }
 
@@ -276,8 +276,129 @@ button, a {
     margin: 0 auto;    
     margin-top: 48px;
     margin-bottom: 60px;
+    background: none;
 }
 
 .items__btn-paragraph {
     font-size: 16px;
+}
+
+@media(min-width: 770px) and (max-width: 1140px) {
+
+    .container {
+        max-width: 736px;
+    } 
+
+    .head {
+        max-width: 768px;
+        height: 74px;
+        gap: 424px;
+    }
+    
+    .head-left {
+        padding-left: 32px;
+    }
+
+    .head__right-menu {
+        margin-top: 31px;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+    
+    .head__right-users {
+        margin-top: 27px;
+        margin-bottom: 18px;
+        margin-right: 42px;
+    }
+    
+    .head__right-basket {
+        margin-top: 27px;
+        margin-bottom: 18px;
+    }
+
+    .brand {
+        max-width: 769.57px;
+        max-height: 367.57px;
+    }
+    
+    .brand-left {
+        max-width: 386px;
+        max-height: 368px;
+    }
+    
+    .brand-right {
+        margin-top: 138.1px;
+        margin-left: 67px;        
+    }
+    
+    .brand__right-title{
+        font-size: 44px;
+    }
+    
+    .brand__right-paragraph {
+        font-size: 24px;    
+    }
+    
+    .catalog-forWoman {
+        width: 231.973px;
+        height: 167.617px;
+    }
+    
+    .catalog__forWoman__background__text-paragraph {
+        padding: 59px 39px;
+    }
+
+    .catalog-forMan {
+        width: 231.973px;
+        height: 167.617px;
+    }
+    
+    .catalog-forKids {
+        width: 231.973px;
+        height: 167.617px; 
+    }
+    
+    .catalog-accesories {
+    width: 734.581px;
+    height: 116.043px;
+    }
+    
+    .catalog__accesories-background {
+        width: 734.581px;
+        height: 116.043px;
+    }
+    
+    .catalog__accesories__background__text-paragraph {
+        padding: 33px 288px;
+    }
+    
+    .items__text-title {
+        margin-bottom: 3.3px;
+    }
+    
+    .items__text-paragraph {
+        margin-bottom: 72.74px;
+    }
+    
+    .items-cards { 
+        gap: 16px;
+    }
+    
+    .items__cards-1 {
+        max-height: 581px;
+    }
+    
+    .items__cards__1-text {
+        margin: 25.35px 28.8px 20px 16.46px;
+    }
+    
+    .items__cards__1__text-paragraph {
+        margin-top: 12.65px;
+        margin-bottom: 18px;
+    }
+
+    .items-btn { 
+        margin-top: 32.48px;
+        margin-bottom: 70.52px;
+    }
 }
