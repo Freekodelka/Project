@@ -42,19 +42,27 @@ button, a {
 }
 
 .head {
-    max-width: 1600px;
     height: 75px;
     background: #222222;
+}
+
+.header__wrapper {
     display: flex;
-    gap: 859px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .head-left {
     display: flex;
     align-items: center;
     gap: 41px;
-    padding-left: 231px;
 }
+/* .head-left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    padding-left: 231px;
+} */
 
 .head__left-logo {
     width: 44px;
@@ -62,7 +70,6 @@ button, a {
 }
 
 .head-left__search {
-    background: #222222;
     width: 26.002px;
     height: 26.792px;
 }
@@ -73,7 +80,6 @@ button, a {
 }
 
 .head__right-menu {
-    background: #222222;
     width: 32px;
     height: 23px;
     margin-top: 30px;
@@ -82,7 +88,6 @@ button, a {
 }
 
 .head__right-users {
-    background: #222222;
     width: 29px;
     height: 29px;
     margin-top: 26px;
@@ -91,18 +96,28 @@ button, a {
 }
 
 .head__right-basket {
-    background: #222222;
     width: 32px;
     height: 29px;
     margin-top: 26px;
     margin-bottom: 20px;
 }
 
-.brand {
+/* .brand {
     display: flex;
     background: #F1E4E6;
     max-width: 1600px;
     max-height: 767px;
+} */
+
+.brand {
+    background: #f1e4e6;
+}
+
+.brand__wrapper {
+    display: flex;
+/*     max-width: 1600px;
+    max-height: 767px; */
+    margin: 0 auto;
 }
 
 .brand-left {
