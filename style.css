@@ -72,6 +72,8 @@ button, a {
 .head-left__search {
     width: 26.002px;
     height: 26.792px;
+    background: transparent;
+    border: none;
 }
 
 .head-right {
@@ -85,6 +87,8 @@ button, a {
     margin-top: 30px;
     margin-bottom: 22px;
     margin-right: 33px;
+    background: transparent;
+    border: none;
 }
 
 .head__right-users {
@@ -93,6 +97,8 @@ button, a {
     margin-top: 26px;
     margin-bottom: 20px;
     margin-right: 33px;
+    background: transparent;
+    border: none;
 }
 
 .head__right-basket {
@@ -100,14 +106,9 @@ button, a {
     height: 29px;
     margin-top: 26px;
     margin-bottom: 20px;
+    background: transparent;
+    border: none;
 }
-
-/* .brand {
-    display: flex;
-    background: #F1E4E6;
-    max-width: 1600px;
-    max-height: 767px;
-} */
 
 .brand {
     background: #f1e4e6;
@@ -115,8 +116,8 @@ button, a {
 
 .brand__wrapper {
     display: flex;
-/*     max-width: 1600px;
-    max-height: 767px; */
+    max-width: 1600px;
+    max-height: 767px; 
     margin: 0 auto;
 }
 
@@ -305,7 +306,6 @@ button, a {
     } 
 
     .head {
-        max-width: 768px;
         height: 74px;
         gap: 424px;
     }
