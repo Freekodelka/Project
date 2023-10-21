@@ -408,12 +408,15 @@ button, a {
 }
 
 .head {
-    width: 375px;
     height: 74px;
 }
 
+.header__wrapper {
+    gap:200px;
+}
+
 .head__right-menu {
-    margin-right: auto;
+    margin-right: auto; 
     justify-content: flex-end; 
 }
 
@@ -475,11 +478,20 @@ button, a {
 
 .catalog-accesories {
     background-position: center;
-    object-fit: cover;
+    background-size: cover;
     width: 343px;
     height: 111px;
 }
 
+.catalog__accesories__background__text-paragraph { 
+    padding: 31px 92px;    
+}
+
+
+.catalog__accesories-background {
+    width: 343px;
+    height: 111px;
+}
 .items {
     margin-top: 64px;
 }
