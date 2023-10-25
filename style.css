@@ -73,6 +73,7 @@ button, a {
 .head-right {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .head__right-menu {
@@ -102,6 +103,19 @@ button, a {
     margin-bottom: 20px;
     background: transparent;
     border: none;
+}
+
+.head__right__basket-digit {
+    width: 19px;
+    height: 19px;
+    background-color: #F26376;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 18px;
+    right: -9px;
+    border-radius: 19px;
+
 }
 
 .brand {
@@ -361,6 +375,11 @@ button, a {
     background: none;
 }
 
+.items-btn:hover {
+    background-color: #F26376;
+    color: white;
+}
+
 .items__btn-paragraph {
     font-size: 16px;
 }
@@ -523,6 +542,11 @@ button, a {
 .links-right {
     display: flex;
     gap: 7.29px;
+}
+
+.links__right-facebook:hover {
+    color: white;
+    background-color: pink;
 }
 
  @media(min-width: 768px) and (max-width: 1024px) {
