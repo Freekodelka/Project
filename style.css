@@ -277,8 +277,8 @@ button, a {
     display: none;
 }
 
-.items__cards__card-1-background:hover {
-    display:flex
+.items__cards-card-1:hover .items__cards__card-1-background {
+    display: flex;
 }
 
 .items__cards__card-1__background-btn {
@@ -334,10 +334,18 @@ button, a {
     height: 420px;
 }
 
+.items__cards-card-2:hover .items__cards__card-1-background {
+    display: flex;
+}
+
 .items__cards-card-3 {
     background-image: url(./img/card3.png);
     width: 360px;
     height: 420px;
+}
+
+.items__cards-card-3:hover .items__cards__card-1-background {
+    display: flex;
 }
 
 .items__cards-card-4 {
@@ -346,10 +354,18 @@ button, a {
     height: 420px;
 }
 
+.items__cards-card-4:hover .items__cards__card-1-background {
+    display: flex;
+}
+
 .items__cards-card-5 {
     background-image: url(./img/card5.png);
     width: 360px;
     height: 420px;
+}
+
+.items__cards-card-5:hover .items__cards__card-1-background {
+    display: flex;
 }
 
 .items__cards-card-6 {
@@ -358,10 +374,9 @@ button, a {
     height: 420px;
 }
 
-
-
-
-
+.items__cards-card-6:hover .items__cards__card-1-background {
+    display: flex;
+}
 
 .items-btn {
     width: 212px;
@@ -385,7 +400,6 @@ button, a {
 }
 
 .conditions {
-
     height: 341px;
     background-color:#222224;
     display: flex;
@@ -420,10 +434,6 @@ button, a {
     font-family: 'Lato-Light';
     font-size: 13.972px;
     font-weight: 300;
-}
-
-.subscribe {
-
 }
 
 .subscribe-image {
@@ -483,7 +493,7 @@ button, a {
 }
 
 .subscribe__content__right-paragraph {
-    font-family: 'Lato-Reghular';
+    font-family: 'Lato-Regular';
     font-size: 18px;
     font-weight: 400;
     line-height: 167.2%;
@@ -544,10 +554,23 @@ button, a {
     gap: 7.29px;
 }
 
-.links__right-facebook:hover {
-    color: white;
-    background-color: pink;
+.links__right__facebook-svg {
+    width: 31.451px;
+    height: 32px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.links__right__facebook-svg:hover {
+    background: rgb(182, 43, 66);
+}
+
+svg:hover {
+    fill: white;
+}
+
 
  @media(min-width: 768px) and (max-width: 1024px) {
 
@@ -661,6 +684,44 @@ button, a {
         margin-top: 32.48px;
         margin-bottom: 70.52px;
     }
+
+    .conditions {
+        height: 610px;
+        display: flex;
+        gap: 48.47px;
+        flex-direction: column;
+    }
+
+    .subscribe-image {
+        height: 693px; 
+    }
+    
+    .subscribe-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subscribe__content-left {
+        width: 359.45px;
+        height: 225px;
+        margin: 64px 204.55px 48px 204px;
+    }
+    
+    .subscribe__content-right {
+        height: 137x;
+    }
+    
+    .subscribe__content__right-paragraph {
+        margin-bottom: 27px;    }
+
+    .links {
+        gap:305px;
+    }
+    
+    .links-left {
+        margin-left: 32px;
+    }
+
 }
 
 @media (max-width: 767px) {
