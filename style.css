@@ -436,9 +436,15 @@ button, a {
     font-weight: 300;
 }
 
+.subscribe {
+    max-width: 1600px;
+    height: 448px;
+}
+
 .subscribe-image {
     background-image: url(./img/natural.png);
-    height: 448px; 
+    height: 448px;
+    background-repeat: no-repeat; 
 }
 
 .subscribe__image-background {
@@ -642,8 +648,8 @@ svg:hover {
     }
     
     .catalog-accesories {
-    width: 734.581px;
-    height: 116.043px;
+        width: 734.581px;
+        height: 116.043px;
     }
     
     .catalog__accesories-background {
@@ -692,8 +698,14 @@ svg:hover {
         flex-direction: column;
     }
 
+    .subscribe {
+        max-width: 768px;
+        height: 693px;
+    }
+    
     .subscribe-image {
         height: 693px; 
+        width: 768px;
     }
     
     .subscribe-content {
@@ -712,7 +724,8 @@ svg:hover {
     }
     
     .subscribe__content__right-paragraph {
-        margin-bottom: 27px;    }
+        margin-bottom: 27px;    
+    }
 
     .links {
         gap:305px;
