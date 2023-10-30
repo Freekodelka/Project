@@ -163,6 +163,8 @@ a {
 	position: absolute;
 	right: 0;
 	top: 0;
+	overflow: hidden;
+	transition: height 1s;
 }
 
 .brand__menu-close {
@@ -196,8 +198,12 @@ a {
 }
 
 .hidden {
-	display: none;
+	height: 0;	
+	overflow: hidden;
+	transition: height 1s;
 }
+
+
 
 .catalog {
 	display: flex;
