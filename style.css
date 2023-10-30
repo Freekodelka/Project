@@ -196,7 +196,7 @@ a {
 }
 
 .hidden {
-	display: inline-block;
+	display: none;
 }
 
 .catalog {
